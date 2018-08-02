@@ -21,6 +21,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		85315CD02112E8CD00B0F043 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85315CCF2112E8CD00B0F043 /* Category.swift */; };
+		85315CD22112E8E000B0F043 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85315CD12112E8E000B0F043 /* User.swift */; };
+		85315CD42112EBA400B0F043 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85315CD32112EBA400B0F043 /* Group.swift */; };
 		OBJ_1026 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* AppTests.swift */; };
 		OBJ_1028 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Todo::App::Product" /* App.framework */; };
 		OBJ_1029 /* Vapor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Vapor::Vapor::Product" /* Vapor.framework */; };
@@ -4956,6 +4959,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85315CCF2112E8CD00B0F043 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		85315CD12112E8E000B0F043 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		85315CD32112EBA400B0F043 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		"Console::Command::Product" /* Command.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Command.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Console::Console::Product" /* Console.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Console.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Console::Logging::Product" /* Logging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -6538,6 +6544,9 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_12 /* Todo.swift */,
+				85315CCF2112E8CD00B0F043 /* Category.swift */,
+				85315CD12112E8E000B0F043 /* User.swift */,
+				85315CD32112EBA400B0F043 /* Group.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -11386,12 +11395,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				85315CD42112EBA400B0F043 /* Group.swift in Sources */,
 				OBJ_891 /* TodoController.swift in Sources */,
 				OBJ_892 /* Todo.swift in Sources */,
 				OBJ_893 /* app.swift in Sources */,
 				OBJ_894 /* boot.swift in Sources */,
+				85315CD22112E8E000B0F043 /* User.swift in Sources */,
 				OBJ_895 /* configure.swift in Sources */,
 				OBJ_896 /* routes.swift in Sources */,
+				85315CD02112E8CD00B0F043 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
